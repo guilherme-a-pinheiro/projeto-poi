@@ -20,4 +20,10 @@ public class PointOfInterest {
     private String name;
     private Long x;
     private Long y;
+
+    public PointOfInterest(String name, Long x, Long y) {
+        this.name = name;
+        this.x = x;
+        this.y = y;
+    }
 }
